@@ -1,0 +1,10 @@
+# Compiled class
+*.class
+
+# Package
+*.jar
+
+# Mac Specific
+.DS_Store
+._*
+/.metadata/
