@@ -1,4 +1,4 @@
-package com.journaldev.mockito.CalcService;
+package com.journaldev.mockito;
 
 public interface AddService {
 	public int add(int num1, int num2);

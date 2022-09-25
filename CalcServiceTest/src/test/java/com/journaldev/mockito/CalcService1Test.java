@@ -1,4 +1,4 @@
-package com.journaldev.mockito.CalcServiceTest;
+package com.journaldev.mockito;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
@@ -10,8 +10,8 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.journaldev.mockito.CalcService.AddService;
-import com.journaldev.mockito.CalcService.CalcService;
+import com.journaldev.mockito.calcservice.AddService;
+import com.journaldev.mockito.calcservice.CalcService;
 
 
 @ExtendWith(MockitoExtension.class)
@@ -34,13 +34,13 @@ public class CalcService1Test {
 		int num1 = 11;
 		int num2 = 12;
 
-		int mockExpected = 23;
-		when(addService.add(num1, num2)).thenReturn(mockExpected);
+		int mockResult = 23;
+		when(addService.add(num1, num2)).thenReturn(mockResult);
 
-		int assertExpected = 23;
+		int expected = 23;
 		int actual = calcService.calc(num1, num2);
 
-		assertEquals(assertExpected, actual);
+		assertEquals(expected, actual);
 
 	}
 }
