@@ -40,7 +40,7 @@ class AppTest {
 
 				() -> {
 					System.out.println("step 2");
-					assertEquals(50, app.multiply(25, 2), "10 x 5 must be 50");
+					assertEquals(50, app.multiply(1000, 5), "10 x 5 must be 50");
 				},
 
 				() -> {
