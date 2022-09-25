@@ -7,4 +7,7 @@
 # Mac Specific
 .DS_Store
 ._*
+
+# Others
 /.metadata/
+private-*
