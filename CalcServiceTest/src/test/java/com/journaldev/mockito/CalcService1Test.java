@@ -10,9 +10,6 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.journaldev.mockito.calcservice.AddService;
-import com.journaldev.mockito.calcservice.CalcService;
-
 
 @ExtendWith(MockitoExtension.class)
 public class CalcService1Test {
