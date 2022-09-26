@@ -11,3 +11,5 @@
 # Others
 /.metadata/
 private-*
+*/.gitignore
+
