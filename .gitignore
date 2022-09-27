@@ -1,5 +1,6 @@
 # Compiled class
 *.class
+*/bin
 
 # Package
 *.jar
