@@ -4,7 +4,7 @@ import com.fdmgroup.model.Fruit;
 import java.util.Arrays;
 
 
-public class SortFruitWrong {
+public class SortFruitAwful {
 
 	public static void main(String args[]) {
 
