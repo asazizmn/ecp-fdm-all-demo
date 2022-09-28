@@ -3,7 +3,7 @@ package com.fdmgroup.sorting;
 import java.util.Arrays;
 
 
-public class SortingArray {
+public class SortArray {
 
 	public static void main(String[] args) {
 		

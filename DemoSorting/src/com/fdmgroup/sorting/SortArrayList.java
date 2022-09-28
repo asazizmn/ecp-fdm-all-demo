@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 
-public class SortingArrayList {
+public class SortArrayList {
 	
 	public static void main(String[] args) {
 		
@@ -16,6 +16,7 @@ public class SortingArrayList {
 		fruits.add("Orange");
 		fruits.add("Banana");
 		
+		// please note the difference between Arrays.sort & Collections.sort!! 
 		Collections.sort(fruits);
 		
 		for(String fruit: fruits) {

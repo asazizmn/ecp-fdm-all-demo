@@ -6,10 +6,12 @@ public class Fruit {
 	private String fruitName;
 	private int quantity;
 
+	
 	public Fruit(String fruitName, int quantity) {
 		this.fruitName = fruitName;
 		this.quantity = quantity;
 	}
+	
 
 	public String getFruitName() {
 		return fruitName;

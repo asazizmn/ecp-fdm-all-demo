@@ -4,7 +4,7 @@ import com.fdmgroup.model.Fruit;
 import java.util.Arrays;
 
 
-public class SortingFruitWrong {
+public class SortFruitWrong {
 
 	public static void main(String args[]) {
 
@@ -31,9 +31,8 @@ public class SortingFruitWrong {
 		// Arrays.sort(fruits, new FruitComparator());
 		
 		
-
 		for (Fruit fruit : fruits) {
-			System.out.println("Fruits: " + fruit.getFruitName() + ", Quantity : " + fruit.getQuantity());
+			System.out.println(fruit.getFruitName() + ": " + fruit.getQuantity());
 		}
 	}
 }
