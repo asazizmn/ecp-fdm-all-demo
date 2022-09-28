@@ -6,18 +6,11 @@ public class SortingArray {
 		
 		String[] fruits = new String[] {"Pineapple","Apple", "Orange", "Banana"}; 
 		
-		// sort
 		Arrays.sort(fruits);
 		
-		// before sorting
 		for(String fruit: fruits) {
 			System.out.println(fruit);
 		}
-		
-
-		
-		
-
 
 	}
 
