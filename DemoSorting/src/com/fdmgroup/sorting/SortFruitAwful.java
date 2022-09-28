@@ -24,15 +24,15 @@ public class SortFruitAwful {
 		// can NOT use this without implementing comparable 
 		// "Furthermore, all elements in the array must be mutually comparable (that is, e1.compareTo(e2) 
 		// ... must not throw a ClassCastException for any elements e1 and e2 in the array)."
-		// REF: https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html#sort(T[],%20java.util.Comparator)
+		// [REF: https://docs.oracle.com/javase/7/docs/api/java/util/Arrays.html#sort(T[],%20java.util.Comparator)]
 		Arrays.sort(fruits);
 				
 		// (or alternatively comparator)
-		// Arrays.sort(fruits, new FruitComparator());
+		//Arrays.sort(fruits, new FruitComparator());
 		
 		
 		for (Fruit fruit : fruits) {
-			System.out.println(fruit.getFruitName() + ": " + fruit.getQuantity());
+			System.out.println("(" + fruit.getQuantity() + ") " + fruit.getFruitName());
 		}
 	}
 }

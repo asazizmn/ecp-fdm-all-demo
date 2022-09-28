@@ -22,6 +22,5 @@ public class SortArrayList {
 		for(String fruit: fruits) {
 			System.out.println(fruit);
 		}
-		
 	}
 }

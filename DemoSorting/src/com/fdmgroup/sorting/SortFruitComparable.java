@@ -24,8 +24,9 @@ public class SortFruitComparable {
 		Arrays.sort(fruits);
 		
 		
+		// print out the fruit in ascending order of quantity (not name!)
 		for (FruitComparable fruit : fruits) {
-			System.out.println(fruit.getFruitName() + ": " + fruit.getQuantity());
+			System.out.println("(" + fruit.getQuantity() + ") " + fruit.getFruitName());
 		}
 	}
 }

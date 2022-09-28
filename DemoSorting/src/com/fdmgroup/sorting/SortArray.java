@@ -14,7 +14,5 @@ public class SortArray {
 		for(String fruit: fruits) {
 			System.out.println(fruit);
 		}
-
 	}
-
 }
