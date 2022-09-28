@@ -1,3 +1,6 @@
+package com.fdmgroup.sorting;
+
+
 import java.util.Arrays;
 
 public class SortingArray {
