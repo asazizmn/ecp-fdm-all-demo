@@ -7,7 +7,7 @@ import java.util.Comparator;
  * 
  * [REF: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Comparator.html]
  */
-public class FruitNameComparator implements Comparator<Fruit> {
+public class FruitNameCr implements Comparator<Fruit> {
 
 	/**
 	 * Step 2: override 'compareTo'
@@ -23,10 +23,10 @@ public class FruitNameComparator implements Comparator<Fruit> {
 		String fruitNameTwo = fruitTwo.getFruitName();
 		
 		// ascending order
-		return fruitNameOne.compareTo(fruitNameTwo);
+//		return fruitNameOne.compareTo(fruitNameTwo);
 				
 		// descending order
-		//return fruitNameTwo.compareTo(fruitNameOne);
+		return fruitNameTwo.compareTo(fruitNameOne);
 	}
 	
 }

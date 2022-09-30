@@ -1,13 +1,13 @@
 package com.fdmgroup.sorting;
 
-import com.fdmgroup.model.FruitComparable;
+import com.fdmgroup.model.FruitCe;
 
 public class FruitRunner {
 
 	public static void main(String[] args) {
 		
-		FruitComparable fruitOne = new FruitComparable("Strawberry", 89);
-		FruitComparable fruitTwo = new FruitComparable("Blueberry", 98);
+		FruitCe fruitOne = new FruitCe("Strawberry", 89);
+		FruitCe fruitTwo = new FruitCe("Blueberry", 98);
 		
 		
 		

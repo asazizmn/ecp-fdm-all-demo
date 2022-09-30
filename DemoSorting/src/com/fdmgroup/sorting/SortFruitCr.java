@@ -1,12 +1,12 @@
 package com.fdmgroup.sorting;
 
 import com.fdmgroup.model.Fruit;
-import com.fdmgroup.model.FruitNameComparator;
+import com.fdmgroup.model.FruitNameCr;
 
 import java.util.Arrays;
 
 
-public class SortFruitComparator {
+public class SortFruitCr {
 
 	public static void main(String args[]) {
 
@@ -23,7 +23,7 @@ public class SortFruitComparator {
 		fruits[3] = banana;
 
 		// no more exception!!
-		Arrays.sort(fruits, new FruitNameComparator());
+		Arrays.sort(fruits, new FruitNameCr());
 		
 		
 		// print out the fruit in ascending order of quantity (not name!)

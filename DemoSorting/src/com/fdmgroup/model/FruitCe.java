@@ -6,13 +6,13 @@ package com.fdmgroup.model;
  * 
  * [REF: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Comparable.html]
  */
-public class FruitComparable implements Comparable<FruitComparable> {
+public class FruitCe implements Comparable<FruitCe> {
 
 	private String fruitName;
 	private int quantity;
 
 	
-	public FruitComparable(String fruitName, int quantity) {
+	public FruitCe(String fruitName, int quantity) {
 		this.fruitName = fruitName;
 		this.quantity = quantity;
 	}
@@ -38,17 +38,17 @@ public class FruitComparable implements Comparable<FruitComparable> {
 	/**
 	 * Step 2: override 'compareTo'
 	 * 
-	 * @param FruitComparable (the object to be compared to)
+	 * @param FruitCe (the object to be compared to)
 	 * @return integer value (positive for this larger, negative for this smaller, zero for equals)
 	 */
 	@Override
-	public int compareTo(FruitComparable comparedFruit) {
+	public int compareTo(FruitCe comparedFruit) {
 		
 		// this allows the class to be sorted using 'quantity'
 		// ascending order
-		return this.quantity - comparedFruit.getQuantity();
+//		return this.quantity - comparedFruit.getQuantity();
 		
 		// descending order
-//		return comparedFruit.getQuantity() - this.quantity;
+		return comparedFruit.getQuantity() - this.quantity;
 	}
 }
