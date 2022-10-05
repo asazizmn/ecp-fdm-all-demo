@@ -1,6 +1,6 @@
 /**
  * Primitives
- * - demonstrating basic usage and underscoring
+ * - demonstrating basic data type usage and underscoring
  * - for javadoc tags - https://www.tutorialspoint.com/java/java_documentation.htm
  * 
  * @author	S. Aziz
