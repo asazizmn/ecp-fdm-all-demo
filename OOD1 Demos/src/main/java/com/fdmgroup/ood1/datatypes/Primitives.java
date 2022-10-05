@@ -35,5 +35,12 @@ public class Primitives {
         float floatVar = 32.0F;
 
         double doubleVar = 64.0;
+        
+        
+        boolean booleanVar = true;
+        boolean booleanVar2 = false;
+        
+        
+        char charVar = 'a';
     }
 }
