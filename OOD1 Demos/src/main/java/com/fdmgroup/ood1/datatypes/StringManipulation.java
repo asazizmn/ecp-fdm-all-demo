@@ -15,6 +15,8 @@ public class StringManipulation {
 
 	public static void main(String[] args) {
 		
+		// Common String Methods ////////////////
+		
 		String salam = "Assalamu Alaykum";
 		
 		System.out.println(salam.substring(9));		
@@ -41,6 +43,20 @@ public class StringManipulation {
 		for (String alphabet : alphabetsArray) {
 			System.out.println(alphabet);
 		}
+		
+		
+		// String Comparison ////////////////
+		
+		String string1 = "Hello";
+		String string2 = "Hello";
+		System.out.println(string1 ==  string2); 		// true
+		
+		
+		String string3 = new String("Hello");
+		String string4 = new String("Hello");
+		System.out.println(string3 ==  string4); 		// false
+
+//		System.out.println(string3.equals(string4));	// true
 	}
 
 }
