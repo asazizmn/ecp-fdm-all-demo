@@ -17,7 +17,7 @@ public class Primitives {
 
     public static void main(String[] args) {
 
-        // primitive types ////////////////
+        // primitive types (w/ upper limits) ////////////////
 
         byte byteVar = 127;
 
@@ -25,12 +25,12 @@ public class Primitives {
 
         int intVar = -2_147_483_648;
 
-        // long longVar = 2_147_483_647_000_000_000L;
-        long longVar = 2_147_483_647_999_999_999L;
+        long longVar = 9_223_372_036_854_775_807L;
 
 
         // how to calculate range of float variables
         // https://www.youtube.com/watch?v=YYIeMM8By6Y&t=174s
+        
         // float floatVar = 2_147_483_647_000_000_000_000_000_000_000_000_000F;
         float floatVar = 32.0F;
 
