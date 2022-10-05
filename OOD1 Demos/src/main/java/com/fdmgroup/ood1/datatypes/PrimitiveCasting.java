@@ -20,22 +20,17 @@ public class PrimitiveCasting {
 		// implicit casting ////////////////
 		
 		int intAge = 35;
-		System.out.println(intAge); 
-		
 		double doubleAge = intAge;
-		System.out.println(doubleAge); 
 		
 		
 		
 		// explicit casting ////////////////
 		
 		double doubleType = 85.4;
-		System.out.println(doubleType);
 		
 		// doubleType is bigger, so it must be cast.
 		// otherwise 'Type mismatch' error​
-		int intType = (int) doubleType; 
-		System.out.println(intType);
+		int intType = (int) doubleType;
 		
 
 		
@@ -44,12 +39,10 @@ public class PrimitiveCasting {
 		int intValue = 1;
 		double doubleValue = 1.234;
 		double doubleResult = intValue + doubleValue;
-		System.out.println(doubleResult);
 		
 		long longValue = 1234567879L;
 		float floatValue = 1.23f;
 		float floatResult = longValue + floatValue;
-		System.out.println(floatResult);
 		
 	}
 

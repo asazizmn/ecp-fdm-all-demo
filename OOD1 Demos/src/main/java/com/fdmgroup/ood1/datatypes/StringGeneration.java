@@ -17,7 +17,6 @@ public class StringGeneration {
 		
 		// Method 1: Using String Literal ////////////////
 		String string1 = "In String Pool";
-		System.out.println(string1);
 		
 		
 		
@@ -25,8 +24,6 @@ public class StringGeneration {
 		
 		// string argument
 		String string2 = new String("In the Heap");
-		System.out.println(string2);
-		
 		
 		// character array argument
 		char ch[] = { 'H', 'e', 'l', 'l', 'o', '!'};
@@ -39,7 +36,6 @@ public class StringGeneration {
 		
 		// even concatenation creates a new string 
 		string1 = string1 + " Again";
-		System.out.println(string1);
 	}
 
 }
