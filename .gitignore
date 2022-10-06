@@ -1,6 +1,7 @@
 # Compiled class
 *.class
 */bin
+*/target
 
 # Package
 *.jar

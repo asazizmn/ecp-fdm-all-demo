@@ -26,8 +26,8 @@ public class StringGeneration {
 		String string2 = new String("In the Heap");
 		
 		// character array argument
-		char ch[] = { 'H', 'e', 'l', 'l', 'o', '!'};
-		String string3 = new String(ch);
+		char charsArray[] = { 'H', 'e', 'l', 'l', 'o', '!'};
+		String string3 = new String(charsArray);
 		System.out.println(string3);
 		
 		
