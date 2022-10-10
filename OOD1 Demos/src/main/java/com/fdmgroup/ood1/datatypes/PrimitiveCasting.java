@@ -9,6 +9,8 @@
 
 package com.fdmgroup.ood1.datatypes;
 
+
+
 public class PrimitiveCasting {
 
 	public static void main(String[] args) {

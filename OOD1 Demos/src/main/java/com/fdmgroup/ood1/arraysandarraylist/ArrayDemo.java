@@ -1,15 +1,17 @@
 /**
- * Arrays.java
- * - demonstrating basic casting
+ * ArrayDemo.java
+ * - demonstrating basic array usage
  * 
  * @author	S. Aziz
  * @version	0.0.1
- * @since	05/10/22
+ * @since	11/10/22
  */
 
 package com.fdmgroup.ood1.arraysandarraylist;
 
-public class Arrays {
+
+
+public class ArrayDemo {
 
 	public static void main(String[] args) {
 

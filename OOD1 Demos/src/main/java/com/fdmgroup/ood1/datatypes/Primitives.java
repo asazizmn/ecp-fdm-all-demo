@@ -8,7 +8,6 @@
  * @since	05/10/22
  */
 
-
 package com.fdmgroup.ood1.datatypes;
 
 
