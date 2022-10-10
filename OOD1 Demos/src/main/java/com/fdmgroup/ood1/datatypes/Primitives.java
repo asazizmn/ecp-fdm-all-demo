@@ -1,5 +1,5 @@
 /**
- * Primitives
+ * Primitives.java
  * - demonstrating basic data type usage and underscoring
  * - for javadoc tags - https://www.tutorialspoint.com/java/java_documentation.htm
  * 

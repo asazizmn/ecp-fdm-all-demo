@@ -1,5 +1,5 @@
 /**
- * Wrappers
+ * Wrappers.java
  * - demonstrating primitive wrapper classes
  * 
  * @author	S. Aziz

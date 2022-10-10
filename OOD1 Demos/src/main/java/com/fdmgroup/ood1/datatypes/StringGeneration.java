@@ -1,5 +1,5 @@
 /**
- * StringGeneration
+ * StringGeneration.java
  * - demonstrating various ways to create a string
  * 
  * @author	S. Aziz

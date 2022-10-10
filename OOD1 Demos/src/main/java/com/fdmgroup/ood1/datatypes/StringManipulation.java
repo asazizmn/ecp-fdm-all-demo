@@ -1,5 +1,5 @@
 /**
- * StringManipulation
+ * StringManipulation.java
  * - demonstrating string manipulation
  * 
  * @author	S. Aziz
