@@ -17,7 +17,7 @@ public class ArrayListDemo {
 
 	public static void main(String[] args) {
 		
-		// creation
+		// creation: method 1
 		ArrayList<String> cars = new ArrayList<>();
 		
 		
@@ -28,27 +28,24 @@ public class ArrayListDemo {
 	    cars.add("Ford");
 	    
 	    
-	    // reading
-	    cars.get(0);
-	    cars.get(1);
-	    cars.get(2);
-	    cars.get(3);
+	    // read item
+	    String name = cars.get(1);
 	    
 	    
-	    // update
+	    // update item
 		cars.set(2, "Toyota");
 		
 		
-		// remove
+		// remove item
 		cars.remove(3);
 		
+		
 	    // clear all
-//	    cars.clear();
+//		cars.clear();
 		
 	    
-	    // size
-	    cars.size();
-	    
+	    // get size of array
+		int numCars = cars.size();
 	    
 	    
 	    // looping through collection	    
@@ -56,6 +53,14 @@ public class ArrayListDemo {
 	    	System.out.println(car);
 	    }
 	    
-
+	    
+	    
+	    // Other ways to create an array //////////////////
+	    
+	    ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(10, 20, 30));
+		ArrayList<Integer> numbers2 = numbers;
+		
+		
+		numbers.add(40);		// mutable: simply increases the ArrayList size and adds the value
 	}
 }

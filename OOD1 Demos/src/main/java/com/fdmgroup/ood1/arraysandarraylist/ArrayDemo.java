@@ -1,7 +1,8 @@
 /**
- * ArrayDemo.java
- * - demonstrating basic array usage
- * 
+ * ArrayListDemo.java
+ * - demonstrating basic ArrayList usage
+ * - an ArrayList is just a resizable array type
+ *
  * @author	S. Aziz
  * @version	0.0.1
  * @since	11/10/22
@@ -14,55 +15,50 @@ package com.fdmgroup.ood1.arraysandarraylist;
 public class ArrayDemo {
 
 	public static void main(String[] args) {
-
-		// Method 1: manual ////////////////////////////////////////
-
-		int intArray[] = new int[3];
-
-		intArray[0] = 10;
-		intArray[1] = 20;
-		intArray[2] = 30;
-
-		for (int i = 0; i < intArray.length; i++) {
-			System.out.println("[" + i + "] = " + intArray[i]);
-		}
-
-		// ArrayIndexOutOfBoundsException !
-//		intArray[3] = 40;
 		
-		// appears to increase the array size
-		// immutable: in reality, this is just creating a new array in memory
-		intArray = new int[4];
-		intArray[3] = 40;
-		
-		// prints empty new line
-		System.out.println("");
-
+		// creation
+		String cars[] = new String[3];
 		
 		
-		// Method 2: array initialiser ////////////////////////////////////////
+		// insertion
+		cars[0] = "BMW";
+		cars[1] = "Mazda";
+		cars[2] = "Volvo";
+//		cars[3] = "Ford"; // ArrayIndexOutOfBoundsException
+	    
 		
-		String stringArray[] = { "ten", "twenty", "thirty" };
-		
-		for (int i = 0; i < stringArray.length; i++) {
-			System.out.println("[" + i + "] = " + stringArray[i]);
-		}
-		
-		// prints empty new line
-		System.out.println("");
+	    // read item
+		String name = cars[1];
+	    
+	    
+	    // update item
+		cars[2] = "Toyota";
 		
 		
+		// remove or clear item
+		// Java arrays do not provide a direct remove method to remove an element. 
+		// Arrays in Java are static so the size of the arrays cannot change once created
+		// Thus we cannot delete an element and reduce the array size.
 		
-		// Method 3: from another array ////////////////////////////////////////
+	    
+		// get size of array
+	    int numCars = cars.length;
+	    
+	    
+	    // looping through collection	    
+	    for ( String car : cars ) {
+	    	System.out.println(car);
+	    }
+	    
+	    
+	    
+	    // Other ways to create an array //////////////////
+	    
+		int numbers[] = {10, 20, 30};
+		int numbers2[] = numbers;
 		
-		String sentence = "this will be used to create another array";
-		String splittedSentence[] = sentence.split(" ");
 		
-		String words[] = splittedSentence;
-		
-		for (String word : words) {
-			System.out.println(word);
-		}
+		numbers = new int[4];	// appears to increase the array size
+		numbers[3] = 40; 		// immutable: in reality, this is just a new array in memory
 	}
-
 }
