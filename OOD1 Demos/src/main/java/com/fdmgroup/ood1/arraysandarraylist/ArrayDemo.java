@@ -58,7 +58,7 @@ public class ArrayDemo {
 		int numbers2[] = numbers;
 		
 		
-		numbers = new int[4];	// appears to increase the array size
+		numbers = new int[4];	// only appears to increase the array size
 		numbers[3] = 40; 		// immutable: in reality, this is just a new array in memory
 	}
 }
