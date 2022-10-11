@@ -67,16 +67,14 @@ public class ArrayListBasics {
 		numbers.add(40);		// mutable: simply increases the ArrayList size and adds the 4 value
 		
 		
+		
+		// array <-> arraylist ////////////////////////
+		
+		// array -> arraylist
 		String words[] = "Assalamu Alaykum, Dunya!".split(" ");
-		ArrayList<String> wordsList2 = new ArrayList<>( Arrays.asList(words) );
+		ArrayList<String> wordsCollection2 = new ArrayList<>( Arrays.asList(words) );
 		
-		
-		System.out.println("About to test arrays.aslist");
-		
-		for (String word : wordsList2) {
-			System.out.println(word);
-		}
-		
-//		System.out.println(words.size());
+		// arraylist -> array
+		wordsCollection2.toArray();
 	}
 }
