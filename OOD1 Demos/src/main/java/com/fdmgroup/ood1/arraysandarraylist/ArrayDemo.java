@@ -54,11 +54,14 @@ public class ArrayDemo {
 	    
 	    // Other ways to create an array //////////////////
 	    
-		int numbers[] = {10, 20, 30};
+		int[] numbers = {10, 20, 30};
 		int numbers2[] = numbers;
-		
 		
 		numbers = new int[4];	// only appears to increase the array size
 		numbers[3] = 40; 		// immutable: in reality, this is just a new array in memory
+		
+		
+		String words[] = "Assalamu Alaykum, Dunya!".split(" ");
+		System.out.println(words.length);
 	}
 }
