@@ -49,18 +49,18 @@ public class ArrayListDemo {
 	    
 	    
 	    // looping through collection	    
-	    for ( String car : cars ) {
-	    	System.out.println(car);
-	    }
+		for (String car : cars) {
+			System.out.println(car);
+		}
 	    
 	    
 	    
 	    // Other ways to create an array //////////////////
 	    
-	    ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(10, 20, 30));
+		ArrayList<Integer> numbers = new ArrayList<>( Arrays.asList(10, 20, 30) ); // size initially specified as 3
 		ArrayList<Integer> numbers2 = numbers;
 		
 		
-		numbers.add(40);		// mutable: simply increases the ArrayList size and adds the value
+		numbers.add(40);		// mutable: simply increases the ArrayList size and adds the 4 value
 	}
 }
