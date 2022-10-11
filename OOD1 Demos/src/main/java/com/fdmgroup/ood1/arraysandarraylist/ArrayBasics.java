@@ -1,7 +1,7 @@
 /**
- * ArrayDemo.java
- * - demonstrating basic ArrayList usage
- * - an ArrayList is just a resizable array type
+ * ArrayBasics.java
+ * - demonstrating basic array usage
+ * - an array is a structure that holds a fixed number of values of the same type
  *
  * @author	S. Aziz
  * @version	0.0.1
@@ -12,7 +12,7 @@ package com.fdmgroup.ood1.arraysandarraylist;
 
 
 
-public class ArrayDemo {
+public class ArrayBasics {
 
 	public static void main(String[] args) {
 		
@@ -62,6 +62,6 @@ public class ArrayDemo {
 		
 		
 		String words[] = "Assalamu Alaykum, Dunya!".split(" ");
-		System.out.println(words.length);
+//		System.out.println(words.length);
 	}
 }
