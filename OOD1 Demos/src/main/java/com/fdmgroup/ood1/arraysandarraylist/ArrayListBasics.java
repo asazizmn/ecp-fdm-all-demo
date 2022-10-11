@@ -65,16 +65,5 @@ public class ArrayListBasics {
 		ArrayList<Integer> numbers2 = numbers;
 		
 		numbers.add(40);		// mutable: simply increases the ArrayList size and adds the 4 value
-		
-		
-		
-		// array <-> arraylist ////////////////////////
-		
-		// array -> arraylist
-		String words[] = "Assalamu Alaykum, Dunya!".split(" ");
-		ArrayList<String> wordsCollection2 = new ArrayList<>( Arrays.asList(words) );
-		
-		// arraylist -> array
-		wordsCollection2.toArray();
 	}
 }

@@ -46,7 +46,7 @@ public class ArrayBasics {
 	    
 	    
 	    // looping through collection	    
-	    for ( String car : cars ) {
+	    for (String car : cars) {
 	    	System.out.println(car);
 	    }
 	    
@@ -59,9 +59,5 @@ public class ArrayBasics {
 		
 		numbers = new int[4];	// only appears to increase the array size
 		numbers[3] = 40; 		// immutable: in reality, this is just a new array in memory
-		
-		
-		String words[] = "Assalamu Alaykum, Dunya!".split(" ");
-//		System.out.println(words.length);
 	}
 }
