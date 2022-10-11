@@ -1,5 +1,5 @@
 /**
- * ArrayListDemo.java
+ * ArrayDemo.java
  * - demonstrating basic ArrayList usage
  * - an ArrayList is just a resizable array type
  *
