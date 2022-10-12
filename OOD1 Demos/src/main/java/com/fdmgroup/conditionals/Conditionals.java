@@ -14,8 +14,8 @@ public class Conditionals {
 
 	public static void main(String[] args) {
 
-		int age = 5;
-		String day = "Sunday";
+		int age = 8;
+		String day = "Saturday";
 
 		
 		// if statement ////////////////////////
@@ -71,5 +71,12 @@ public class Conditionals {
 				System.out.println("error");
 				break;
 		}
+		
+		
+		// ternary statement ////////////////////////
+
+		String ticket = age < 16 ? "free ticket" : "full ticket";
+		
+		System.out.println("person will have a "+ ticket);
 	}
 }
