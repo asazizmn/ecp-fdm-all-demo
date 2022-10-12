@@ -71,6 +71,5 @@ public class Conditionals {
 				System.out.println("error");
 				break;
 		}
-
 	}
 }
