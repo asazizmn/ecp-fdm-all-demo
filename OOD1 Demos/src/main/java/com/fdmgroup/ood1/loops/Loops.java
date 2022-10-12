@@ -9,6 +9,8 @@
 
 package com.fdmgroup.ood1.loops;
 
+
+
 public class Loops {
 
 	public static void main(String[] args) {
