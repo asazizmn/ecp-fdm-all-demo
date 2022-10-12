@@ -28,6 +28,7 @@ public class Loops {
 			counter++;
 		}
 		
+		
 		// 2. do-while loop 
 		System.out.println(NEW_LINE + "do-while loop:");
 		counter = 0;
@@ -35,6 +36,7 @@ public class Loops {
 			System.out.println(counter);
 			counter++;
 		} while (counter < 5);
+		
 		
 		// 3.1 for loop - basic
 		// ... [init] ; [expression] ; [update]
@@ -48,6 +50,7 @@ public class Loops {
 		for (int i = 0, j = 0; i < 10 && j < 14; i++, j = j +  2) {
 			System.out.println("i:" + i + " j:" + j);
 		}
+		
 		
 		// 4. for-each loop 
 		System.out.println(NEW_LINE + "for-each loop:");
@@ -65,6 +68,7 @@ public class Loops {
 			if (num == 3) break; 
 			System.out.println(num);
 		}
+		
 		
 		// continue
 		System.out.println(NEW_LINE + "continue statement:");
