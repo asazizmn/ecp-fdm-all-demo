@@ -18,11 +18,13 @@ public class Conditionals {
 		String day = "Saturday";
 
 		
+		
 		// if statement ////////////////////////
 
 		if (age < 16) {
 			System.out.println("child");
 		}
+		
 		
 
 		// if / else if statements ////////////////////////
@@ -53,6 +55,7 @@ public class Conditionals {
 		}
 
 		
+		
 		// switch statement ////////////////////////
 
 		switch (day) {
@@ -71,6 +74,7 @@ public class Conditionals {
 				System.out.println("error");
 				break;
 		}
+		
 		
 		
 		// ternary statement ////////////////////////
