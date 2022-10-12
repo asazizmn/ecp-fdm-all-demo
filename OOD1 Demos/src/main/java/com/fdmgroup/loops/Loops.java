@@ -4,55 +4,46 @@ public class Loops {
 
 	public static void main(String[] args) {
 		
-		int i = 0, j = 0;
-		int numArray[] = {0, 1, 2, 3, 4};
+		int counter, numArray[] = { 0, 1, 2, 3, 4 };
+		int array2D[][] = { { 1, 2 }, { 3, 4 }, { 5, 6 } };
 		final String NEW_LINE = "\n";
-		
 		
 		
 		// looping structures //////////////////////////////
 		
-		
 		// 1. while loop 
 		System.out.println(NEW_LINE + "while loop:");
-		
-		while (i < 5) {
-			System.out.println(i);
-			i++;
+		counter = 0;
+		while (counter < 5) {
+			System.out.println(counter);
+			counter++;
 		}
-		
 		
 		// 2. do-while loop 
 		System.out.println(NEW_LINE + "do-while loop:");
-		
+		counter = 0;
 		do {
-			System.out.println(j);
-			j++;
-		} while (j < 5);
+			System.out.println(counter);
+			counter++;
+		} while (counter < 5);
 		
-		
-		// 3. for loop 
+		// 3.1 for loop - basic
 		// ... [init] ; [expression] ; [update]
-		System.out.println(NEW_LINE + "for loop:");
-		
-		for (int k = 0; k < 5; k++) {
-			System.out.println(k);
+		System.out.println(NEW_LINE + "for loop - basic:");
+		for (int i = 0; i < 5; i++) {
+			System.out.println(i);
 		}
 		
-		
-		// multiple counters... 
+		// 3.2 for loop - multiple counters... 
 		System.out.println(NEW_LINE + "for loop - multiple counters:");
-		
-		for (int l = 0, m = 0; l < 10 && l < 14; l++, m = m +  2) {
-			System.out.println("l:" + l + " m:" + m);
+		for (int i = 0, j = 0; i < 10 && j < 14; i++, j = j +  2) {
+			System.out.println("i:" + i + " j:" + j);
 		}
-		
 		
 		// 4. for-each loop 
 		System.out.println(NEW_LINE + "for-each loop:");
-		
-		for (int n : numArray) {
-			System.out.println(n);
+		for (int num : numArray) {
+			System.out.println(num);
 		}
 		
 		
@@ -60,33 +51,32 @@ public class Loops {
 		// branching statements //////////////////////////////
 		
 		// break 
-		// ... doesn't work in a foreach loop
-//		System.out.println(NEW_LINE + "break statement:");
-
-		
-		
+		System.out.println(NEW_LINE + "break statement:");
+		for (int num : numArray) {
+			if (num == 3) break; 
+			System.out.println(num);
+		}
 		
 		// continue
-		// ... doesn't work in a foreach loop
-		
-//		System.out.println(NEW_LINE + "continue statement:");
+		System.out.println(NEW_LINE + "continue statement:");
+		for (int num : numArray) {
+			if (num == 3) continue; 
+			System.out.println(num);
+		}
 		
 		
 		
 		// labeled statements //////////////////////////////
 		// ... can be used together with the break or continue statements to simulate a go-to
-		
-//		outer: for (int i = 0; i < matrix.length; i++) {
-//		    for (int j = 0; j < matrix[i].length; j++) {
-//		        System.out.print(matrix[i][j] + " ");
-//		        if (matrix[i][j] == a) {
-//		            foundAtI = i;
-//		            foundAtJ = j;
-//		            break outer;
-//		        }
-//		    }
-//		    System.out.println();
-//		}
+
+		System.out.println(NEW_LINE + "labeled statement:");
+		outer: for (int i = 0; i < array2D.length; i++) {
+			for (int j = 0; j < array2D[i].length; j++) {
+				if (array2D[i][j] == 3) continue outer;
+				System.out.print(array2D[i][j] + " ");
+			}
+			System.out.println();
+		}
 
 	}
 
