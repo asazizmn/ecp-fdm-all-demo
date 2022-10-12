@@ -1,4 +1,13 @@
-package com.fdmgroup.loops;
+/**
+ * Loops.java
+ * - demonstrating how to handle loops and branching statements
+ *
+ * @author	S. Aziz
+ * @version	0.0.1
+ * @since	12/10/22
+ */
+
+package com.fdmgroup.ood1.loops;
 
 public class Loops {
 
