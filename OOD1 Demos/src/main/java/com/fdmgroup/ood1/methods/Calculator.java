@@ -14,12 +14,11 @@ package com.fdmgroup.ood1.methods;
 public class Calculator {
 
 	public static void main(String args[]) {
-		int result2 = addTwo(2, 2);
-		int result3 = addThree(2, 2, 2);
-		int result4 = addFour(2, 2, 2, 2);
-//		int result = addFive(1, 2, 3, 4, 5); // ????????????????
-
-		System.out.println(result2);
+		System.out.println( addTwo(2, 2) );
+		System.out.println( addThree(2, 2, 2) );
+		System.out.println( addFour(2, 2, 2, 2) );
+		
+//		System.out.println( addFive(1, 2, 3, 4, 5) ); // ????????????????
 	}
 	
 	
