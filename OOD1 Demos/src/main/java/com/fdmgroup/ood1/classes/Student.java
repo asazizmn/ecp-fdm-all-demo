@@ -16,8 +16,8 @@ public class Student {
 	
 	// Attributes (a.k.a. data members, instance variables) ////////////////////////
 	
-	int id;
-	String name;
+	private int id;
+	private String name;
 
 	
 	
