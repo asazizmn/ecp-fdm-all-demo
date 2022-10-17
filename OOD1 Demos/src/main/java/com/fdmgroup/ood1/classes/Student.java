@@ -2,6 +2,8 @@
  * Student.java
  * - basic demonstration of a class
  * - this also demonstrates encapsulation and abstraction
+ * - for more details on encapsulation vs abstraction: https://www.w3schools.blog/abstraction-vs-encapsulation-in-java
+ * 
  * - for UML notations:   https://khalilstemmler.com/articles/uml-cheatsheet/
  *
  * @author	S. Aziz
