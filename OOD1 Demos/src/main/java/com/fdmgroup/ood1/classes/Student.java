@@ -1,6 +1,7 @@
 /**
  * Student.java
  * - basic demonstration of a class
+ * - for UML notations:   https://khalilstemmler.com/articles/uml-cheatsheet/
  *
  * @author	S. Aziz
  * @version	0.0.1
@@ -54,15 +55,22 @@ public class Student {
 	public static void main(String args[]) {
 		
 		// instantiate the student class
-		Student s1 = new Student(12, "Abdullah");
+		Student student1 = new Student(12, "Abdullah");
 		
 		// provided the class - level attributes are accessible
-		System.out.println(s1.id);
-		System.out.println(s1.name);
+		System.out.println(student1.id);
+		System.out.println(student1.name);
 		
 		// otherwise, it's normally better practice to use the getters
-		System.out.println(s1.getId());
-		System.out.println(s1.getName());
+		System.out.println(student1.getId());
+		System.out.println(student1.getName());
+		
+		
+		// several objects can be created from one class definition
+		Student student2 = new Student(13, "Ammar");
+		Student student3 = new Student(14, "Yasir");
+		Student student4 = new Student(15, "John");
+		Student student5 = new Student(16, "Chris");
 	}
 
 
