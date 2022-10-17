@@ -1,6 +1,7 @@
 /**
  * Student.java
  * - basic demonstration of a class
+ * - this also demonstrates encapsulation and abstraction
  * - for UML notations:   https://khalilstemmler.com/articles/uml-cheatsheet/
  *
  * @author	S. Aziz
