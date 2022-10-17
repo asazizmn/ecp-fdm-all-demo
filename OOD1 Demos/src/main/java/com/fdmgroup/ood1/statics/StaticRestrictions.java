@@ -31,14 +31,14 @@ class StaticRestrictions {
 		a = 20;
 
 		// Cannot make a static reference to the non-static field b
-		b = 10;
+//		b = 10; // Error !!!!!
 
 		// Cannot make a static reference to the
 		// non-static method method1() from the type StaticRestrictions
-		method1();
+//		method1(); // Error !!!!!
 
 		// Cannot use 'super' or 'this' in a static context
-		System.out.println(super.a); // compiler error
+//		System.out.println(super.a); // Error !!!!!
 	}
 
 }
