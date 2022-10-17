@@ -61,6 +61,28 @@ public class Student {
 	}
 	
 	
+	
+	// just an example to show the concept of abstraction
+	// the user would not know the implementation details i.e. steps 1 to 6
+	// but the user would know that calling this method would save student data in the db
+	// ... i.e. studentVar.storeInDatabase() 
+	public void storeInDatabase() {
+		
+		// 1. try to connect with database
+		
+		// 2. verify database connection
+		
+		// 3. locate the appropriate table in database
+		
+		// 4. serialise this student object
+		
+		// 5. push and store this student object in database
+		
+		// 6. close connection with database
+	}
+	
+	
+	
 	// main runner - used to create an object and run it
 	public static void main(String args[]) {
 		
@@ -81,6 +103,11 @@ public class Student {
 		Student student3 = new Student(14, "Yasir");
 		Student student4 = new Student(15, "John");
 		Student student5 = new Student(16, "Chris");
+		
+		
+		// this is all the user would need to know
+		// internally, steps 1 to 6 would be executed
+		student5.storeInDatabase();
 	}
 
 
