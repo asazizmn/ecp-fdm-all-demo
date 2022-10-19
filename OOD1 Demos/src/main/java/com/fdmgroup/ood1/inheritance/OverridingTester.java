@@ -1,3 +1,15 @@
+/**
+ * OverridingTester.java
+ * - demonstrates the concept of overriding
+ *
+ * @author	S. Aziz
+ * @version	0.0.1
+ * @since	19/10/22
+ */
+
+package com.fdmgroup.ood1.inheritance;
+
+
 
 // parent class
 class Animal {
@@ -43,7 +55,7 @@ class Dog extends Animal {
 }
 
 
-class AnimalDogTester {
+class OverridingTester {
 
 	public static void main(String[] args) {
 		Dog dog = new Dog();	
