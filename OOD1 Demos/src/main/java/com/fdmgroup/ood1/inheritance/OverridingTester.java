@@ -42,10 +42,10 @@ class Dog extends Animal {
 	
 	
 	// Can NOT override a final method!!
-	@Override
-	public void eating() {
-		System.out.println("I am eating A LOT!!!");
-	}
+//	@Override
+//	public void eating() {
+//		System.out.println("I am eating A LOT!!!");
+//	}
 	
 	
 	// This is how you call a parent method
