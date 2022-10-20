@@ -12,6 +12,7 @@ package com.fdmgroup.ood1.arraysandarraylist;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 
 
@@ -30,6 +31,20 @@ public class ArraysAndCollections {
 		
 		// arraylist -> array
 		String wordArray2[] = wordList.toArray( new String[ wordList.size() ] );
+		
+		
+				
+		
+		// Java Streams ////////////////////////////////////////////////
+		
+		// Integer List -> int[]
+		List<Integer> listInteger = Arrays.asList(10, 20, 30);
+		int[] arrayInt = listInteger.stream().mapToInt(Integer::intValue).toArray();
+		
+		
+		// Integer[] -> int[]
+		Integer[] numbersArrInteger = listInteger.toArray( new Integer[ listInteger.size() ] );
+		int[] numbersArr = Arrays.stream(numbersArrInteger).mapToInt(Integer::intValue).toArray();
 		
 		
 		
