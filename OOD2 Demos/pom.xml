@@ -13,6 +13,7 @@
     <url>http://www.example.com</url>
 
 
+
 	<!-- 
 		Step 1 | ensure java version 11 or higher for junit 5 (v1.7 is v7)	
 	-->
@@ -23,10 +24,12 @@
 	</properties>
 	
 
- 	<!-- 
-		Step 2 | add junit 5: api and engine (or add 'junit-bom' for everything)
-	-->
+ 	
 	<dependencies>
+	
+		<!-- 
+			Step 2 | add junit 5: api and engine (or add 'junit-bom' for everything) 
+		-->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
@@ -51,15 +54,39 @@
 			<scope>test</scope>
 		</dependency-->
 		
+		<!-- 
+			step 4 | ensure mockito 3 
+		-->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>3.7.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-junit-jupiter</artifactId>
+			<version>3.7.7</version>
+		</dependency>
+		
 	</dependencies>
 
 
-	<!-- 
-		Step 3 | ensure 'maven-surefire-plugin' & 'maven-failsafe-plugin' v2.22.2 for junit 5 
-	-->
+	
 	<build>
 		<plugins>
 		
+			<!-- 
+				Step 3 | ensure 'maven-surefire-plugin' & 'maven-failsafe-plugin' v2.22.2 for junit 5 
+			-->
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.22.2</version>
+			</plugin>
+			<plugin>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>2.22.2</version>
+			</plugin>
+			
 			<!-- 
 				Alternative jdk setup method: 
 				Ref - https://maven.apache.org/plugins/maven-compiler-plugin/examples/set-compiler-source-and-target.html 
@@ -72,15 +99,7 @@
 					<target>17</target>
 				</configuration>
 			</plugin-->
-		
-			<plugin>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.22.2</version>
-			</plugin>
-			<plugin>
-				<artifactId>maven-failsafe-plugin</artifactId>
-				<version>2.22.2</version>
-			</plugin>
+			
 		</plugins>
 	</build>
 	
