@@ -16,6 +16,8 @@ import static org.mockito.Mockito.*;
 
 
 
+// please note @ExtendWith only works in conjunction with JUnit5 extensions
+// @ExtendWith(MockitoExtension.class) 
 public class PortfolioTest {
 
 	Portfolio portfolio;
@@ -47,12 +49,19 @@ public class PortfolioTest {
 		// add stocks to the portfolio
 		portfolio.setStocks(stocks);
 
+		// prepare for mock return values
+		final double PRICE_PER_GOOGLE_STOCK = 50.00;
+		final double PRICE_PER_MICROSOFT_STOCK = 1000.00;
+		final double TOTAL_MARKET_VALUE = 100500.0;
+		
+		
 		// mock the behaviour of stock service to return the value of various stocks
-		when(stockService.getPrice(googleStock)).thenReturn(50.00);
-		when(stockService.getPrice(microsoftStock)).thenReturn(1000.00);
+		when(stockService.getPrice(googleStock)).thenReturn(PRICE_PER_GOOGLE_STOCK);
+		when(stockService.getPrice(microsoftStock)).thenReturn(PRICE_PER_MICROSOFT_STOCK);
 
 		double marketValue = portfolio.getMarketValue();
-		return marketValue == 100500.0;
+		
+		return marketValue == TOTAL_MARKET_VALUE;
 	}
 	
 

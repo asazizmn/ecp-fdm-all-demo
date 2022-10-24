@@ -1,6 +1,7 @@
 /**
  * StockService.java
- * - simple interface to get the price of a stock
+ * - simple but incomplete interface to get the price of a stock
+ * - Mockito will be used to help mock this service
  * - REF: https://www.simplilearn.com/tutorials/devops-tutorial/mockito-junit
  * - REF: https://www.tutorialspoint.com/mockito/mockito_first_application.htm
  *
