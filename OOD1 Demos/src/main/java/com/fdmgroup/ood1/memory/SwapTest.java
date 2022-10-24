@@ -37,12 +37,12 @@ public class SwapTest {
 	 * 2. makes a copy of its reference
 	 * 3. and performs a swap of the values inside the object  
 	 * 
-	 * @param referenceCopy
+	 * @param objRefCopy
 	 */
-	public static void swap( SwapTest referenceCopy ) {
-		int temp = referenceCopy.arg1;
-		referenceCopy.arg1 = referenceCopy.arg2;
-		referenceCopy.arg2 = temp;
+	public static void swap( SwapTest objRefCopy ) {
+		int temp = objRefCopy.arg1;
+		objRefCopy.arg1 = objRefCopy.arg2;
+		objRefCopy.arg2 = temp;
 	}
 
 	
