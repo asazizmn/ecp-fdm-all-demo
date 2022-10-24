@@ -3,6 +3,9 @@
  * - A basic portfolio testing class using Mockito (without junit)
  * - REF: https://www.simplilearn.com/tutorials/devops-tutorial/mockito-junit
  * - REF: https://www.tutorialspoint.com/mockito/mockito_first_application.htm
+ * 
+ * Instructions
+ * - in the absence of junit, please run as a java application (not a 'junit test')
  *
  * @since	24/10/22
  */
