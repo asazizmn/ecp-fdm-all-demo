@@ -11,9 +11,9 @@ public class FruitRunner {
 		
 		
 		
-		fruitOne.compareTo(fruitTwo);
+		System.out.println( fruitOne.compareTo(fruitTwo) );
 		
-//		fruitComparator.compare(fruitOne, fruitTwo);
+//		System.out.println( fruitComparator.compare(fruitOne, fruitTwo) );
 		
 		
 
