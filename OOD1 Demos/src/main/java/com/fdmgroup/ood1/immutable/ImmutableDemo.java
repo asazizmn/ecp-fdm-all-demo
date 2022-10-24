@@ -36,20 +36,20 @@ public final class ImmutableDemo {
 	/**
 	 * Custom Constructor performing Deep Copy
 	 * 
-	 * @param i
-	 * @param n
-	 * @param hm
+	 * @param id
+	 * @param name
+	 * @param hashMap
 	 */
-	public ImmutableDemo(int i, String n, HashMap<String,String> hm){
+	public ImmutableDemo(int id, String name, HashMap<String,String> hashMap){
 		System.out.println("Performing Deep Copy for Object initialization");
-		this.id=i;
-		this.name=n;
+		this.id=id;
+		this.name=name;
 		HashMap<String,String> tempMap=new HashMap<String,String>();
 		String key;
-		Iterator<String> it = hm.keySet().iterator();
+		Iterator<String> it = hashMap.keySet().iterator();
 		while(it.hasNext()){
 			key=it.next();
-			tempMap.put(key, hm.get(key));
+			tempMap.put(key, hashMap.get(key));
 		}
 		this.testMap=tempMap;
 	}
