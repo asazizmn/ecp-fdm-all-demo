@@ -7,7 +7,7 @@
  * @since	24/10/22
  */
 
-package com.fdmgroup.ood2.junit5;
+package com.fdmgroup.ood2.junit;
 
 
 
