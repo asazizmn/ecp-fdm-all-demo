@@ -1,6 +1,6 @@
 /**
  * PortfolioTest.java
- * - A basic portfolio testing class using Mockito
+ * - A basic portfolio testing class using Mockito (without junit)
  * - REF: https://www.simplilearn.com/tutorials/devops-tutorial/mockito-junit
  * - REF: https://www.tutorialspoint.com/mockito/mockito_first_application.htm
  *
