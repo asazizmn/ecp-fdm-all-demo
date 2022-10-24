@@ -27,7 +27,7 @@ public class PortfolioTest {
 	StockService stockService;
 
 	
-	public void setUp() {
+	public void init() {
 		// create a portfolio object which is to be tested
 		portfolio = new Portfolio();
 
@@ -70,7 +70,8 @@ public class PortfolioTest {
 
 	public static void main(String[] args) {
 		PortfolioTest test = new PortfolioTest();
-		test.setUp();
+		
+		test.init(); // pls. nt. test classes don't work with constructors
 		
 		System.out.println(test.testMarketValue() ? "pass" : "fail");
 	}
