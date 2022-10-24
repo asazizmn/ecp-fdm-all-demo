@@ -11,6 +11,7 @@
 package com.fdmgroup.ood2.junit5;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -73,4 +74,31 @@ class CalculatorTest {
         assertEquals(expected, result1);
         assertEquals(expected, result2);
     }
+    
+    
+    
+    /**
+     * Method showing the various assert statements that exist
+     */
+    @DisplayName("Demonstrating the various assert statements")
+    void testAssertStatements() {
+    	
+    	// throws an assertion error without checking anything
+    	fail("Not yet implemented");
+    	
+//    	assertEquals(expectedObject, actualObject)​
+//
+//    	assertNotEquals(expectedObject, actualObject)​
+//
+//    	assertTrue(boolean)​
+//
+//    	assertNull(object)​
+//
+//    	assertFalse(boolean)​
+//
+//    	assertNotNull(object)​
+//
+//    	assertArraryEquals(expectedArray, actualArray)
+    }
+    
 }
