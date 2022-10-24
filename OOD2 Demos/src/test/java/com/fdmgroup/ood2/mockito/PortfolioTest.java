@@ -16,16 +16,16 @@ import static org.mockito.Mockito.*;
 
 
 
-public class PortfolioTester {
+public class PortfolioTest {
 	
    Portfolio portfolio;	
    StockService stockService;
 	   
    
    public static void main(String[] args){
-      PortfolioTester tester = new PortfolioTester();
-      tester.setUp();
-      System.out.println(tester.testMarketValue()?"pass":"fail");
+      PortfolioTest test = new PortfolioTest();
+      test.setUp();
+      System.out.println(test.testMarketValue()?"pass":"fail");
    }
    
    
