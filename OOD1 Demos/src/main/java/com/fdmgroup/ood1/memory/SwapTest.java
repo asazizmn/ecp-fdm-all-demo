@@ -17,6 +17,14 @@ public class SwapTest {
 	int arg2 = 2;
 	
 	
+	/**
+	 * 1. this method takes two values
+	 * 2. makes a copy 
+	 * 3. and performs a swap
+	 * 
+	 * @param var1
+	 * @param var2
+	 */
 	public static void swap( int var1, int var2 ) {
 		int temp = var1;
 		var1 = var2;
@@ -24,10 +32,17 @@ public class SwapTest {
 	}
 	
 	
-	public static void swap( SwapTest swapTest ) {
-		int temp = swapTest.arg1;
-		swapTest.arg1 = swapTest.arg2;
-		swapTest.arg2 = temp;
+	/**
+	 * 1. this method takes an object
+	 * 2. makes a copy of its reference
+	 * 3. and performs a swap of the values inside the object  
+	 * 
+	 * @param referenceCopy
+	 */
+	public static void swap( SwapTest referenceCopy ) {
+		int temp = referenceCopy.arg1;
+		referenceCopy.arg1 = referenceCopy.arg2;
+		referenceCopy.arg2 = temp;
 	}
 
 	
