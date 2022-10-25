@@ -1,17 +1,5 @@
-# Compiled class
-*.class
-*/bin
-*/target
+*/target/
+*/bin/
 
-# Package
-*.jar
 
-# Mac Specific
-.DS_Store
-._*
-
-# Others
-/.metadata/
-private-*
-*/.gitignore
-
+.metadata/
