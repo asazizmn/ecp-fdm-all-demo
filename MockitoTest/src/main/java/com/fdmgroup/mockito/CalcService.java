@@ -1,4 +1,4 @@
-package com.journaldev.mockito;
+package com.fdmgroup.mockito;
 
 public class CalcService {
 	

@@ -1,4 +1,4 @@
-package com.journaldev.mockito;
+package com.fdmgroup.mockito;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;

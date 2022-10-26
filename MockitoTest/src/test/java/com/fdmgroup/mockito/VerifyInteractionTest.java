@@ -1,4 +1,4 @@
-package com.journaldev.mockito;
+package com.fdmgroup.mockito;
 
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
