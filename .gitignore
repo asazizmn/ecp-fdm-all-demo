@@ -1,5 +1,4 @@
-*/target/
-*/bin/
-
-
-.metadata/
+*target
+*bin
+*.metadata
+*.DS_Store
