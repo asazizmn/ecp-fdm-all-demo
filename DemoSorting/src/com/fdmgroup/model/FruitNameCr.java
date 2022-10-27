@@ -10,7 +10,7 @@ import java.util.Comparator;
 public class FruitNameCr implements Comparator<Fruit> {
 
 	/**
-	 * Step 2: override 'compareTo'
+	 * Step 2: override 'compare'
 	 * 
 	 * @param fruitOne (the first object to be compared)
 	 * @param fruitTwo (the second object to be compared to)
@@ -23,10 +23,10 @@ public class FruitNameCr implements Comparator<Fruit> {
 		String fruitNameTwo = fruitTwo.getFruitName();
 		
 		// ascending order
-//		return fruitNameOne.compareTo(fruitNameTwo);
+		return fruitNameOne.compareTo(fruitNameTwo);
 				
 		// descending order
-		return fruitNameTwo.compareTo(fruitNameOne);
+//		return fruitNameTwo.compareTo(fruitNameOne);
 	}
 	
 }

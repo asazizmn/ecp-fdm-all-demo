@@ -46,9 +46,9 @@ public class FruitCe implements Comparable<FruitCe> {
 		
 		// this allows the class to be sorted using 'quantity'
 		// ascending order
-//		return this.quantity - comparedFruit.getQuantity();
+		return this.quantity - comparedFruit.getQuantity();
 		
 		// descending order
-		return comparedFruit.getQuantity() - this.quantity;
+//		return comparedFruit.getQuantity() - this.quantity;
 	}
 }
