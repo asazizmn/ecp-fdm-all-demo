@@ -1,9 +1,4 @@
-#*target
-#*bin
-#*.metadata
-#*.DS_Store
-
-# Compiled class/folder ###
+# Compiled class ###
 *.class
 
 # Package ###
