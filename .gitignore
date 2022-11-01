@@ -1,4 +1,34 @@
-*target
-*bin
-*.metadata
-*.DS_Store
+#*target
+#*bin
+#*.metadata
+#*.DS_Store
+
+# Compiled class/folder ###
+*.class
+
+# Package ###
+*.jar
+
+# IDE specific (keep eclipse related mostly) ###
+#.vscode
+#.project
+#.classpath
+#.settings
+.metadata
+target
+
+# Mac Specific ###
+.DS_Store
+._*
+__MACOSX
+
+# Internal .gitignore (except root one) ###
+.gitignore
+!/.gitignore
+
+# Misc ###
+*.jpeg
+*.png
+
+
+
