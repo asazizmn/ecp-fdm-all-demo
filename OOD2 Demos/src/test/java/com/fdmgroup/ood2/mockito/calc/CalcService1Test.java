@@ -1,4 +1,4 @@
-package com.fdmgroup.mockito;
+package com.fdmgroup.ood2.mockito.calc;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.times;
@@ -11,8 +11,8 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.fdmgroup.mockito.AddService;
-import com.fdmgroup.mockito.CalcService;
+import com.fdmgroup.ood2.mockito.calc.AddService;
+import com.fdmgroup.ood2.mockito.calc.CalcService;
 
 
 @ExtendWith(MockitoExtension.class)

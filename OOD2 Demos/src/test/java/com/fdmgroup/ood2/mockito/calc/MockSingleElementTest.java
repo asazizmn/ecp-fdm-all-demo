@@ -1,4 +1,4 @@
-package com.fdmgroup.mockito;
+package com.fdmgroup.ood2.mockito.calc;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;

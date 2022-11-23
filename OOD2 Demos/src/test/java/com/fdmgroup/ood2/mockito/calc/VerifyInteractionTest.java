@@ -1,4 +1,4 @@
-package com.fdmgroup.mockito;
+package com.fdmgroup.ood2.mockito.calc;
 
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;

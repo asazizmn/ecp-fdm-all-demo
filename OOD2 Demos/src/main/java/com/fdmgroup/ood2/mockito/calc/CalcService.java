@@ -1,4 +1,4 @@
-package com.fdmgroup.mockito;
+package com.fdmgroup.ood2.mockito.calc;
 
 public class CalcService {
 	
