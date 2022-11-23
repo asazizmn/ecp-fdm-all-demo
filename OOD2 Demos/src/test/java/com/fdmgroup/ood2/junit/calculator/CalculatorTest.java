@@ -8,7 +8,7 @@
  */
 
 
-package com.fdmgroup.ood2.junit;
+package com.fdmgroup.ood2.junit.calculator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
@@ -17,7 +17,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import com.fdmgroup.ood2.junit.Calculator;
+import com.fdmgroup.ood2.junit.calculator.Calculator;
 
 
 

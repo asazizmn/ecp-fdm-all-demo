@@ -1,4 +1,4 @@
-package com.fdmgroup.tdddemo;
+package com.fdmgroup.ood2.junit.fizzbuzz;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
