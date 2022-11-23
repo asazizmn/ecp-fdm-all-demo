@@ -7,7 +7,7 @@
  * @since	24/10/22
  */
 
-package com.fdmgroup.ood2.mockito;
+package com.fdmgroup.ood2.mockito.portfolio;
 
 import java.util.List;
 
