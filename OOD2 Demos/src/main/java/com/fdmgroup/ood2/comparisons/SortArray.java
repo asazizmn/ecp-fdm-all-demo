@@ -1,6 +1,16 @@
-package com.fdmgroup.sorting;
+/**
+ * SortArray.java
+ * - a simple demonstration of how to sort an array
+ *
+ * @author	S. Aziz
+ * @version	0.0.1
+ * @since	11/10/22
+ */
+
+package com.fdmgroup.ood2.comparisons;
 
 import java.util.Arrays;
+
 
 
 public class SortArray {

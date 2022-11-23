@@ -1,12 +1,19 @@
-package com.fdmgroup.sorting;
+/**
+ * SortFruitCTR.java
+ * - a simple demonstration of how to sort a custom object (i.e. FruitCBL) properly, via Comparator
+ *
+ * @author	S. Aziz
+ * @version	0.0.1
+ * @since	11/10/22
+ */
 
-import com.fdmgroup.model.Fruit;
-import com.fdmgroup.model.FruitNameCr;
+package com.fdmgroup.ood2.comparisons;
 
 import java.util.Arrays;
 
 
-public class SortFruitCr {
+
+public class SortFruitCTR {
 
 	public static void main(String args[]) {
 
@@ -22,8 +29,9 @@ public class SortFruitCr {
 		fruits[2] = orange;
 		fruits[3] = banana;
 
+		
 		// no more exception!!
-		Arrays.sort(fruits, new FruitNameCr());
+		Arrays.sort(fruits, new FruitCTR());
 		
 		
 		// print out the fruit in ascending order of quantity (not name!)

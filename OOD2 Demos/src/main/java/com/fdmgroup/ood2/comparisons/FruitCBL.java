@@ -1,4 +1,14 @@
-package com.fdmgroup.model;
+/**
+ * FruitCBL.java
+ * - fruit model that implements the comparable (CBL) interface, and provides a custom sort definition
+ *
+ * @author	S. Aziz
+ * @version	0.0.1
+ * @since	01/11/22
+ */
+
+package com.fdmgroup.ood2.comparisons;
+
 
 
 /**
@@ -6,13 +16,13 @@ package com.fdmgroup.model;
  * 
  * [REF: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Comparable.html]
  */
-public class FruitCe implements Comparable<FruitCe> {
+public class FruitCBL implements Comparable<FruitCBL> {
 
 	private String fruitName;
 	private int quantity;
 
 	
-	public FruitCe(String fruitName, int quantity) {
+	public FruitCBL(String fruitName, int quantity) {
 		this.fruitName = fruitName;
 		this.quantity = quantity;
 	}
@@ -38,11 +48,11 @@ public class FruitCe implements Comparable<FruitCe> {
 	/**
 	 * Step 2: override 'compareTo'
 	 * 
-	 * @param FruitCe (the object to be compared to)
+	 * @param FruitCBL (the object to be compared to)
 	 * @return integer value (positive for this larger, negative for this smaller, zero for equals)
 	 */
 	@Override
-	public int compareTo(FruitCe comparedFruit) {
+	public int compareTo(FruitCBL comparedFruit) {
 		
 		// this allows the class to be sorted using 'quantity'
 		// ascending order
