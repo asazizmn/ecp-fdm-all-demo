@@ -1,4 +1,4 @@
-package com.fdmgroup.userregistration;
+package com.fdmgroup.ood2.mockito.userregistration;
 
 public class User {
 

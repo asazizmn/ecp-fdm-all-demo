@@ -1,4 +1,4 @@
-package com.fdmgroup.userregistration;
+package com.fdmgroup.ood2.mockito.userregistration;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
