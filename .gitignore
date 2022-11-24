@@ -22,7 +22,7 @@ __MACOSX
 !/.gitignore
 
 # Misc ###
-#*.jpeg
+*.jpeg
 *.png
 
 

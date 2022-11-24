@@ -17,17 +17,13 @@ public class SortFruitCBL {
 
 	public static void main(String args[]) {
 
-		FruitCBL[] fruits = new FruitCBL[4];
-
 		FruitCBL pineappale = new FruitCBL("Pineapple", 70);
 		FruitCBL apple = new FruitCBL("Apple", 100);
 		FruitCBL orange = new FruitCBL("Orange", 80);
 		FruitCBL banana = new FruitCBL("Banana", 90);
-
-		fruits[0] = pineappale;
-		fruits[1] = apple;
-		fruits[2] = orange;
-		fruits[3] = banana;
+		
+		FruitCBL[] fruits = { pineappale, apple, orange, banana };
+		
 
 		// no more exception!!
 		Arrays.sort(fruits);
