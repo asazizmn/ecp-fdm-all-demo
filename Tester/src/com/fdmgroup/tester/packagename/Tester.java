@@ -9,12 +9,43 @@
 
 package com.fdmgroup.tester.packagename;
 
+class FDMAcademy {
+	
+	// atributes
+	
+	// functionality/behaviours
+	
+	public FDMAcademy() {
+		
+		
+	}
+}
 
 
-public class Tester {
+class Employee extends FDMAcademy {
+	
+		// atributes
+	
+		// functionality/behaviours
+	
 	public static void main(String[] args) {
+		
+		Employee employee = new Employee();
 
 		
+	}
+	
+}
+
+
+
+public class Tester extends FDMAcademy {
+	
+	public static void main(String[] args) {
+
+		Tester tester = new Tester();
+		
+
 		
 	}
 }
