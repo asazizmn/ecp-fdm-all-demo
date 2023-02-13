@@ -38,9 +38,6 @@ public class SwapTest {
 	 * 1. this method takes two values
 	 * 2. makes a copy 
 	 * 3. and performs a swap
-	 * 
-	 * @param var1
-	 * @param var2
 	 */
 	public static void swap( int var1, int var2 ) {
 		int temp = var1;
@@ -53,9 +50,6 @@ public class SwapTest {
 	 * 1. this method takes two Person objects
 	 * 2. makes a copy 
 	 * 3. and performs a swap
-	 * 
-	 * @param var1
-	 * @param var2
 	 */
 	public static void swap( Person var1, Person var2 ) {
 		Person temp = var1;
@@ -81,6 +75,9 @@ public class SwapTest {
 	public static void main( String[] args ) {
 		
 		// Pass-by-value: local values ////////////////////////////////////////////////////////
+		
+		
+		// passing primitives ////////////
 		System.out.println("\nPass local variables: primitive");
 		
 		int arg1 = 1;
@@ -91,6 +88,7 @@ public class SwapTest {
 		System.out.println("arg2 is: " + arg2);
 		
 		
+		// passing objects ////////////
 		System.out.println("\nPass local variables: Object");
 		
 		Person person1 = new Person( "John" );
