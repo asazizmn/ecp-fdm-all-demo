@@ -42,7 +42,7 @@ class CalculatorTest {
      * @DisplayName can be used to define the name of the test which is displayed to the user
      */
     @Test                                               
-    @DisplayName("Simple multiplication should work")   
+    @DisplayName("Simple multiplication test, values 4 and 5")   
     void testMultiply() {
     	
     	// arrange & act
@@ -81,6 +81,7 @@ class CalculatorTest {
     /**
      * Method showing the various assert statements that exist
      */
+    @Test
     @DisplayName("Demonstrating the various assert statements")
     void testAssertStatements() {
     	
