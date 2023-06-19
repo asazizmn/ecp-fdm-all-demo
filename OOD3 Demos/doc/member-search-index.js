@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.fdmgroup.ood3.exceptions","c":"ExceptionHandling","l":"ExceptionHandling()","u":"%3Cinit%3E()"},{"p":"com.fdmgroup.ood3.exceptions","c":"ExceptionHandling","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"com.fdmgroup.ood3.exceptions","c":"ExceptionHandling","l":"testException(int)"}];updateSearchResults();
