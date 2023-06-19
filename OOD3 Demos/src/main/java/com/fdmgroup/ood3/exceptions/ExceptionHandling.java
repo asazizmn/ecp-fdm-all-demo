@@ -1,5 +1,5 @@
 /**
- * EceptionHandling.java
+ * ExceptionHandling.java
  *  - Examples of how to handle CheckedExceptions via 2 methods
  * 	  i. handle it w/in actual method using try-catch clause
  * 	  ii. handle it outside current method by throwing it (via 'throws' keyword)
@@ -48,7 +48,13 @@ public class ExceptionHandling {
 		}
 	}
 
-
+	
+	/**
+	 * the actual method that will do the actual exception handling
+	 * so it doesn't need to 'throws' any exceptions
+	 * 
+	 * @param args
+	 */
 	public static void main( String[] args ) {
 
 		// attempt to run code that may or may not throw an exception
