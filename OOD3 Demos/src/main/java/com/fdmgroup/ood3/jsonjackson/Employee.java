@@ -6,8 +6,12 @@
 
 package com.fdmgroup.ood3.jsonjackson;
 
- 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Employee {  
+	
+	// annotation to help match pojo and getters/setters accordingly
+	//@JsonProperty("firstName")
 	
     private String firstName;  
 	private String lastName;  
