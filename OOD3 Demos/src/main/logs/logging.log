@@ -1,0 +1,6 @@
+INFO  | 2023-07-11 19:46:00 | [main] logging.Log4j2Example (Log4j2Example.java:25) - Just entered the main method
+WARN  | 2023-07-11 19:46:00 | [main] logging.Log4j2Example (Log4j2Example.java:32) - Trying to print an a vague object!
+ERROR | 2023-07-11 19:46:00 | [main] logging.Log4j2Example (Log4j2Example.java:46) - An Exception was thrown: java.lang.ArithmeticException: / by zero
+ERROR | 2023-07-11 19:46:00 | [main] logging.Log4j2Example (Log4j2Example.java:49) - An Exception was thrown: 
+java.lang.ArithmeticException: / by zero
+	at com.fdmgroup.ood3.logging.Log4j2Example.main(Log4j2Example.java:39) [classes/:?]
