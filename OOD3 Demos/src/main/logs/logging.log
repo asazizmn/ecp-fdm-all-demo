@@ -1,6 +1,14 @@
-INFO  | 2023-07-11 19:46:00 | [main] logging.Log4j2Example (Log4j2Example.java:25) - Just entered the main method
-WARN  | 2023-07-11 19:46:00 | [main] logging.Log4j2Example (Log4j2Example.java:32) - Trying to print an a vague object!
-ERROR | 2023-07-11 19:46:00 | [main] logging.Log4j2Example (Log4j2Example.java:46) - An Exception was thrown: java.lang.ArithmeticException: / by zero
-ERROR | 2023-07-11 19:46:00 | [main] logging.Log4j2Example (Log4j2Example.java:49) - An Exception was thrown: 
+INFO  | 2023-07-12 10:01:41 | [main] logging.Log4j2Example (Log4j2Example.java:29) - Just entered the main method
+WARN  | 2023-07-12 10:01:41 | [main] logging.Log4j2Example (Log4j2Example.java:36) - Trying to print an a vague object!
+ERROR | 2023-07-12 10:01:41 | [main] logging.Log4j2Example (Log4j2Example.java:50) - An Exception was thrown: java.lang.ArithmeticException: / by zero
+INFO  | 2023-07-12 10:06:49 | [main] logging.Log4j2Example (Log4j2Example.java:29) - Just entered the main method
+WARN  | 2023-07-12 10:06:49 | [main] logging.Log4j2Example (Log4j2Example.java:36) - Trying to print an a vague object!
+WARN  | 2023-07-12 10:06:49 | [main] logging.Log4j2Example (Log4j2Example.java:45) - Should've used defensive coding!
+INFO  | 2023-07-12 10:08:35 | [main] logging.Log4j2Example (Log4j2Example.java:29) - Just entered the main method
+WARN  | 2023-07-12 10:08:35 | [main] logging.Log4j2Example (Log4j2Example.java:36) - Trying to print an a vague object!
+WARN  | 2023-07-12 10:08:35 | [main] logging.Log4j2Example (Log4j2Example.java:45) - Should've used defensive coding!
+INFO  | 2023-07-12 10:08:52 | [main] logging.Log4j2Example (Log4j2Example.java:29) - Just entered the main method
+WARN  | 2023-07-12 10:08:52 | [main] logging.Log4j2Example (Log4j2Example.java:36) - Trying to print an a vague object!
+ERROR | 2023-07-12 10:08:52 | [main] logging.Log4j2Example (Log4j2Example.java:53) - An Exception was thrown: 
 java.lang.ArithmeticException: / by zero
-	at com.fdmgroup.ood3.logging.Log4j2Example.main(Log4j2Example.java:39) [classes/:?]
+	at com.fdmgroup.ood3.logging.Log4j2Example.main(Log4j2Example.java:43) [classes/:?]

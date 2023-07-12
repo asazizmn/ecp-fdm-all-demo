@@ -17,7 +17,11 @@ import org.apache.logging.log4j.Logger;
 
 public class Log4j2Example {
 	
+	
+	// call the defined logger fom log4j2.xml
 	public static final Logger LOGGING = LogManager.getLogger( Log4j2Example.class );
+	
+	
 	
 	public static void main( String[] args ) {
 		
@@ -43,7 +47,7 @@ public class Log4j2Example {
 		catch ( ArithmeticException ae ) 
 		{
 			// error alert that prints the exception AS PART of the log
-			LOGGING.error( "An Exception was thrown: " + ae );
+//			LOGGING.error( "An Exception was thrown: " + ae );
 			
 			// error alert that prints the exception SEPARATELY, after the log
 			LOGGING.error( "An Exception was thrown: ", ae );
