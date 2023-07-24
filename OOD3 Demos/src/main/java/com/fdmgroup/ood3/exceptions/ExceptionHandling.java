@@ -25,7 +25,7 @@ public class ExceptionHandling {
 
 
 	/**
-	 * custom method that simply throws the exceptions and does NOT handle them iteself
+	 * custom method that simply throws the exceptions and does NOT handle them it self
 	 * in this particular case, the calling parent is the main method
 	 * 
 	 * @param i
