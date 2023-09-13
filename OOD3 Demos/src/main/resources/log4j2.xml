@@ -35,7 +35,7 @@
 	<Loggers>
 		
 		<!-- a logger definition that inherits from the root definition  -->
-		<Logger name="com.fdmgroup.logging.Log4j2Example" level="debug" />
+		<Logger name="com.fdmgroup.ood3.logging.Log4j2Example" level="debug" />
 		
 		<!-- root logger definition -->
 		<Root level="info">

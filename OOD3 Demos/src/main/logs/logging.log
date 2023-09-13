@@ -12,3 +12,13 @@ WARN  | 2023-07-12 10:08:52 | [main] logging.Log4j2Example (Log4j2Example.java:3
 ERROR | 2023-07-12 10:08:52 | [main] logging.Log4j2Example (Log4j2Example.java:53) - An Exception was thrown: 
 java.lang.ArithmeticException: / by zero
 	at com.fdmgroup.ood3.logging.Log4j2Example.main(Log4j2Example.java:43) [classes/:?]
+INFO  | 2023-09-13 10:25:21 | [main] logging.Log4j2Example (Log4j2Example.java:29) - Just entered the main method
+WARN  | 2023-09-13 10:25:21 | [main] logging.Log4j2Example (Log4j2Example.java:36) - Trying to print an a vague object!
+ERROR | 2023-09-13 10:25:21 | [main] logging.Log4j2Example (Log4j2Example.java:53) - An Exception was thrown: 
+java.lang.ArithmeticException: / by zero
+	at com.fdmgroup.ood3.logging.Log4j2Example.main(Log4j2Example.java:43) [classes/:?]
+INFO  | 2023-09-13 11:09:55 | [main] logging.Log4j2Example (Log4j2Example.java:29) - Just entered the main method
+WARN  | 2023-09-13 11:09:55 | [main] logging.Log4j2Example (Log4j2Example.java:36) - Trying to print an a vague object!
+ERROR | 2023-09-13 11:09:55 | [main] logging.Log4j2Example (Log4j2Example.java:53) - An Exception was thrown: 
+java.lang.ArithmeticException: / by zero
+	at com.fdmgroup.ood3.logging.Log4j2Example.main(Log4j2Example.java:43) [classes/:?]
