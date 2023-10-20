@@ -3,7 +3,7 @@
  * - A demonstration of all the basic collection operations using a List
  * 
  * `List`
- * - an ordered collection that allows duplicates
+ * - An ordered collection that allows duplicates
  * - ArrayList: A dynamic array, every time it reaches the limit, automatically doubles its size. Good performance when looking over the elements (even faster than adding or removing).
  * - LinkedList: Implements List and Queue. A good option when you need add or remove elements constantly, slower when you need to lookup over all the elements. LinkedList is often used as a Queue instead of a common List.
  * - There are 2 more “old” classes: Vector and Stack. Vector does the same as ArrayList but slowly, Stack is unused and commonly replaced by ArrayDeque.
@@ -21,7 +21,7 @@
  * 
  * @author	S. Aziz
  * @version	0.0.1
- * @since	18/18/23
+ * @since	18/10/23
 
  */
 
