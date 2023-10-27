@@ -25,32 +25,45 @@ public class Log4j2Example {
 	
 	public static void main( String[] args ) {
 		
-		// informational logging
+		// logging: informational ////////////////////////////
 		LOGGING.info( "Just entered the main method");
 		
 		
-		// warning of potential problem
+		
+		// logging: warning ////////////////////////////
 		Object object = new Object();
-		object.toString();
 		
-		LOGGING.warn( "Trying to print an a vague object!" );
+		// check to see if object is vague
+		if (object.getClass() == Object.class) 
+		{	
+			// warn, if so
+			LOGGING.warn( "Trying to print an a vague object!" );
+		}
+		else 
+		{	
+			// continue with next step if not
+			object.toString();
+		}
 		
+			
 		
+		// logging: error ////////////////////////////
 		try 
 		{
 			// warning alert
 			int result, dividend = 4, divisor = 0;
 			result = dividend / divisor;
 			
-			LOGGING.warn( "Should've used defensive coding!" );
+			LOGGING.error( "Should've used defensive coding!" );
 		}
 		catch ( ArithmeticException ae ) 
 		{
-			// error alert that prints the exception AS PART of the log
-//			LOGGING.error( "An Exception was thrown: " + ae );
+			// preferred: error alert that prints the exception AS PART of the log
+			LOGGING.error( "An Exception was thrown: " + ae );
 			
-			// error alert that prints the exception SEPARATELY, after the log
-			LOGGING.error( "An Exception was thrown: ", ae );
+			// sloppy: error alert that prints the exception SEPARATELY, after the log
+			LOGGING.error( "An Exception was thrown: ", ae);
+			ae.printStackTrace();
 		}
 	}
 }
