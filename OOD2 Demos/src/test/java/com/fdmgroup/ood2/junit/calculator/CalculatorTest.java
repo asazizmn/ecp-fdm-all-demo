@@ -13,6 +13,7 @@ package com.fdmgroup.ood2.junit.calculator;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -30,7 +31,7 @@ class CalculatorTest {
     /**
      * The method annotated with @BeforeEach runs before each test
      */
-    @BeforeEach                                         
+    @BeforeAll                                         
     void setUp() {
         calculator = new Calculator();
     }
@@ -43,7 +44,7 @@ class CalculatorTest {
      */
     @Test                                               
     @DisplayName("Simple multiplication test, values 4 and 5")   
-    void testMultiply() {
+    void testMultiplyNormal() {
     	
     	// arrange & act
     	int result = calculator.multiply(4, 5);
@@ -76,31 +77,50 @@ class CalculatorTest {
         assertEquals(expected, result2);
     }
     
-    
-    
-    /**
-     * Method showing the various assert statements that exist
-     */
     @Test
-    @DisplayName("Demonstrating the various assert statements")
-    void testAssertStatements() {
+    @DisplayName("negative and positive numbers multiplication test")
+    void testMultipleNegativePositive() {
     	
-    	// throws an assertion error without checking anything
-    	fail("Not yet implemented");
+    	// arrange
+    	int result;
+    	int expected;
     	
-//    	assertEquals(expectedObject, actualObject)​
-//
-//    	assertNotEquals(expectedObject, actualObject)​
-//
-//    	assertTrue(boolean)​
-//
-//    	assertNull(object)​
-//
-//    	assertFalse(boolean)​
-//
-//    	assertNotNull(object)​
-//
-//    	assertArraryEquals(expectedArray, actualArray)
+    	// act
+    	result = calculator.multiply(-1, 5);
+    	expected = -5;
+    	
+    	
+    	// assert
+    	assertEquals(expected, result);
+    	
     }
+    
+//    
+//    
+//    
+//    /**
+//     * Method showing the various assert statements that exist
+//     */
+//    @Test
+//    @DisplayName("Demonstrating the various assert statements")
+//    void testAssertStatements() {
+//    	
+//    	// throws an assertion error without checking anything
+//    	fail("Not yet implemented");
+//    	
+////    	assertEquals(expectedObject, actualObject)​
+////
+////    	assertNotEquals(expectedObject, actualObject)​
+////
+////    	assertTrue(boolean)​
+////
+////    	assertNull(object)​
+////
+////    	assertFalse(boolean)​
+////
+////    	assertNotNull(object)​
+////
+////    	assertArraryEquals(expectedArray, actualArray)
+//    }
     
 }

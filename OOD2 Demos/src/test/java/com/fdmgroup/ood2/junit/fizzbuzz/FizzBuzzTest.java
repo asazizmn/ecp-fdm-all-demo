@@ -3,14 +3,15 @@ package com.fdmgroup.ood2.junit.fizzbuzz;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class FizzBuzzTest {
 
-	static FizzBuzz fb;
+	FizzBuzz fb;
 	
-	@BeforeAll
-	public static void setup() {
+	@BeforeEach
+	public void setup() {
 	
 		fb = new FizzBuzz();
 		
