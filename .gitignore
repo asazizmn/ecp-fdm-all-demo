@@ -5,7 +5,7 @@
 *.jar
 
 # IDE specific (keep eclipse related mostly) ###
-#.vscode
+.vscode
 #.project
 #.classpath
 #.settings
@@ -22,9 +22,9 @@ __MACOSX
 !/.gitignore
 
 # Misc ###
-*.jpeg
-*.png
-*.jpg
+#*.jpeg
+#*.png
+#*.jpg
 
 
 
