@@ -32,8 +32,8 @@ public class ExceptionHandling {
 	 * @throws FileNotFoundException
 	 * @throws IOException
 	 */
-	public static void testException( int i ) throws FileNotFoundException, IOException {
-
+	public static void testException( int i ) throws FileNotFoundException, IOException {	
+		
 		// if certain conditions are met
 		if ( i < 0 ) {
 			
@@ -45,6 +45,10 @@ public class ExceptionHandling {
 
 			// likewise simply throw the exception to be handled elsewhere
 			throw new IOException( "Only supported for index 0 to 10" );
+		}
+		
+		else {
+			System.out.println("Operation 1");
 		}
 	}
 
@@ -58,23 +62,30 @@ public class ExceptionHandling {
 	public static void main( String[] args ) {
 
 		// attempt to run code that may or may not throw an exception
-		try {
-
+		try {		
+			// operation 1
 			// might throw exception
 			testException( -5 );
 
 			// if an exception is thrown above,
 			// nothing below it will be executed
 			// ...
+			
+			// operation 2
+			System.out.println("Operation 2");
+			
+			// operation 3
+			System.out.println("Operation 3");
 		} 
-
+		
 		// used to catch relevant exceptions only i.e. FileNotFoundException
 		catch ( FileNotFoundException e ) {
 
 			// do something more useful
 			// ...
 			System.out.println( "[FileNotFoundException] --------- " );
-			e.printStackTrace();
+			System.out.println("Hey, I am doing something to solve/handle the FileNotFoundException problem!!");
+//			e.printStackTrace();
 		} 
 
 		// used to catch relevant exceptions only i.e. IOException
@@ -83,7 +94,8 @@ public class ExceptionHandling {
 			// do something more useful
 			// ...
 			System.out.println( "[IOException] --------- " );
-			e.printStackTrace();
+			System.out.println("Hey, I am doing something to solve/handle the IOException problem!!");
+//			e.printStackTrace();
 		} 
 
 		// the finally block is optional and and be used only with a try-catch block.
